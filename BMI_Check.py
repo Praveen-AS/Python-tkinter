@@ -7,6 +7,7 @@ base.title("BMI Calculator")
 base.configure(borderwidth="1")
 
 def validate():
+    BMI.config(text="")
     a=agee.get()
     h=heighte.get()
     w=weighte.get()
